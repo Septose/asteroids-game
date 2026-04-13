@@ -14,7 +14,7 @@ A classic Asteroids-style arcade game built with Python and Pygame as part of th
 
 ![Screenshot](assets/screenshot.png)
 
-![Gameplay](assets/gameplay.gif)
+![Gameplay](assets/asteroids.gif)
 
 ## How to Run
 
