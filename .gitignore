@@ -1,0 +1,13 @@
+# Logs
+game_state.jsonl
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# From Asteroids Game
+game_events.jsonl
