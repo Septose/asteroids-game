@@ -1,13 +1,20 @@
 # Asteroids Game
 
-A simple Asteroids-style arcade game built with Python and Pygame as part of the Boot.dev curriculum.
+A classic Asteroids-style arcade game built with Python and Pygame as part of the Boot.dev curriculum.
 
 ## Features
 
-* Player movement and rotation
+* Smooth player movement and rotation
 * Shooting mechanics
 * Asteroid splitting
 * Collision detection
+* Object-oriented design
+
+## Gameplay
+
+![Screenshot](assets/screenshot.png)
+
+![Gameplay](assets/gameplay.gif)
 
 ## How to Run
 
@@ -31,6 +38,15 @@ pip install pygame
 * Move: Arrow keys / WASD
 * Shoot: Spacebar
 
-## About
+## Design Overview
 
-This project was built as part of Boot.dev to practice object-oriented programming, game loops, and collision systems.
+This project uses object-oriented programming to model game entities:
+
+- `Player` handles movement, rotation, and shooting
+- `Asteroid` handles splitting behavior
+- `CircleShape` base class manages collision logic
+
+The game loop is responsible for:
+- Updating entity state
+- Handling collisions
+- Rendering frames at consistent FPS
